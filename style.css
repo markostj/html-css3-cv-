@@ -1,0 +1,166 @@
+*{
+    box-sizing:border-box;
+
+}
+.wrapper{
+    background-color:white;
+    border:1px solid blue;
+    padding:1rem 1rem 0 1rem;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-color:#99d2e3;
+}
+.title{
+    text-align:center;
+    font-size:1.5rem;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+.nav{
+    background-color:#435463;
+    margin:0;
+    font-size:1.2rem;
+}
+.nav .active{
+    color:black;
+}
+header span{
+    position:relative;
+    left:20px;
+    margin:5.8%;
+}
+header a{
+    color:white;
+}
+header a:hover{
+    color:black;
+}
+header a:active{
+    color:red;
+}
+.Pic1 img{
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    border: 10px double blue;
+}
+.Pic2 img{
+    position:relative;
+    text-align: center;
+    width:100%;
+    overflow:hidden; 
+    border: 10px double red;
+}
+.Pic3 img{
+    position:relative;
+    width:100%;
+    overflow:hidden; 
+    border: 10px double green;
+}
+footer{
+    margin:2rem 0 0 0;
+    background-color:#b3b3ff;
+}
+footer h2{
+        text-align:center;
+}
+footer a{
+    position:relative;
+    left:52%
+}
+.linkedin{
+    background-image: url("linkedin.png");
+    background-repeat: no-repeat;
+    background-size: 40px 25px;
+    background-position:center;
+}
+.github{
+    background-image: url("github.png");
+    background-repeat: no-repeat;
+    background-size: 40px 25px;
+    background-position:center;
+}
+.facebook{
+   background-image: url("facebook2.png");
+   background-repeat: no-repeat;
+   background-size: 40px 25px;
+   background-position:center; 
+   margin:0 0 20px 0
+}
+footer a{
+    color:blue;
+}
+footer a:active{
+    color:red;
+}
+footer a:hover{
+    color:black;
+}
+input:focus{
+      background-color: yellow;
+}
+footer span{
+    position:relative;
+    left:40%;
+}
+/*Za ostale stranice */
+
+main .frame{
+    border-radius:20px;
+    margin:30px 20px;
+    background-color:#d1d1e0;
+}
+main {
+    text-align:right;
+}
+main span{
+    margin:10px;
+    font-size:1.6rem;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 5%;}
+.col-2 {width: 10%;}
+.col-3 {width: 15%;}
+.col-4 {width: 20%;}
+.col-5 {width: 25%;}
+.col-6 {width: 30%;}
+.col-7 {width: 35%;}
+.col-8 {width: 40%;}
+.col-9 {width: 45%;}
+.col-10 {width: 50%;} 
+.col-11 {width: 55%;}
+.col-12 {width: 60%;}
+.col-13 {width: 65%;}
+.col-14 {width: 70%;}
+.col-15 {width: 75%;}
+.col-16 {width: 80%;}
+.col-17 {width: 85%;}
+.col-18 {width: 90%;}
+.col-19 {width: 95%;}
+.col-20 {width: 100%;}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    .nav span{
+        display:block;
+    }
+  [class*="col-"] {
+    width: 100%;
+  }
+}
