@@ -41,25 +41,10 @@ header a:hover{
 header a:active{
     color:red;
 }
-.Pic1 img{
-    position:relative;
-    width:100%;
-    overflow:hidden;
-    border: 10px double blue;
+.afterbox{
+    clear:left;
 }
-.Pic2 img{
-    position:relative;
-    text-align: center;
-    width:100%;
-    overflow:hidden; 
-    border: 10px double red;
-}
-.Pic3 img{
-    position:relative;
-    width:100%;
-    overflow:hidden; 
-    border: 10px double green;
-}
+
 footer{
     margin:40px 0 0 0;
     background-color:#b3b3ff;
@@ -127,6 +112,17 @@ main span{
         width:8%;
         height:500px;
         border:5px solid red;
+         content: "";
+          display: inline-block;
+    }
+    .pic1 img{
+    width:400%;
+    }
+    .pic2 img{
+        width:400%
+    }
+    .pic3 img{
+        width:400%
     }
 }
 @media  (max-width: 1500px) {
@@ -135,7 +131,20 @@ main span{
     margin:0px;
     width:15%;
     height:400px;
-    border: 5px solid red;   
+    border: 5px solid red;
+    overflow:visible;
+    }
+   .pic1 img{
+    width:200%;
+    }
+    .pic2 img{
+        width:200%
+    }
+    .pic3 img{
+        width:200%
+    }
+    .hide2{
+        display:none;
     }
 }
     @media  (max-width: 1000px) {
@@ -151,6 +160,18 @@ main span{
             width:100%;
            font-size:1.3rem;
         }
+    .pic1 img{
+    width:100%;
+    }
+    .pic2 img{
+        width:100%
+    }
+    .pic3 img{
+        width:100%
+    }
+        .hide3{
+            display:none;
+        }
 }
      @media  (max-width: 500px) {
     .box{
@@ -165,6 +186,20 @@ main span{
             width:100%;
            font-size:1.3rem;
         }
+         .pic1 img{
+             width:100%;
+         }
+         .pic2 img{
+             width:100%;
+         }
+         .pic3 img{
+             width:100%;
+         }
+         .hide3{
+           display:none;  
+         }
+         
+    
 }
 @media (max-width: 300px){
     .box{
@@ -182,6 +217,20 @@ main span{
     .title{
         font-size:0.9rem;
     }
+      .pic1 img{
+             height:100%
+         }
+         .pic2 img{
+             height:100%;
+         }
+         .pic3 img{
+             height:100%;
+         }
+    .hide{
+       display:none; 
+    }
+         
+    
 }
 
 .overfix{
