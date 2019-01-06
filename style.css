@@ -44,18 +44,14 @@ header a:active{
 .afterbox{
     clear:left;
 }
-
-footer{
+.foot{
     margin:40px 0 0 0;
     background-color:#b3b3ff;
 }
-footer h2{
+.links{
         text-align:center;
 }
-footer a{
-    position:relative;
-    left:52%
-}
+
 .linkedin{
     background-image: url("linkedin.png");
     background-repeat: no-repeat;
@@ -87,11 +83,10 @@ footer a:hover{
 input:focus{
       background-color: yellow;
 }
-footer span{
-    position:relative;
-    left:40%;
+.copyright{
+    text-align:center;
 }
-/*Za ostale stranice */
+/*For other sites */
 
 main .frame{
     border-radius:20px;
@@ -111,7 +106,7 @@ main span{
         margin:0px;
         width:8%;
         height:500px;
-        border:5px solid red;
+        border:5px solid red; 
          content: "";
           display: inline-block;
     }
@@ -124,6 +119,10 @@ main span{
     .pic3 img{
         width:400%
     }
+    .foot a{
+    position:relative;
+    left:52%
+}
 }
 @media  (max-width: 1500px) {
     .box{
@@ -131,7 +130,7 @@ main span{
     margin:0px;
     width:15%;
     height:400px;
-    border: 5px solid red;
+    border: 5px solid red; 
     overflow:visible;
     }
    .pic1 img{
@@ -146,6 +145,10 @@ main span{
     .hide2{
         display:none;
     }
+    .foot a{
+    position:relative;
+    left:52%
+}
 }
     @media  (max-width: 1000px) {
     .box{
@@ -153,7 +156,7 @@ main span{
     margin:0px;
     width:33%;
     height:300px;
-    border: 5px solid red;   
+     border: 5px solid red;   
     }
    .navAll{
            display: block; 
@@ -172,6 +175,10 @@ main span{
         .hide3{
             display:none;
         }
+    .foot a{
+    position:relative;
+    left:55%
+}
 }
      @media  (max-width: 500px) {
     .box{
@@ -198,7 +205,10 @@ main span{
          .hide3{
            display:none;  
          }
-         
+      .foot a{
+    position:relative;
+    left:57%
+}   
     
 }
 @media (max-width: 300px){
@@ -226,13 +236,12 @@ main span{
          .pic3 img{
              height:100%;
          }
-    .hide{
+    .hide3{
        display:none; 
     }
-         
-    
+    .foot a{
+    position:relative;
+    left:58%
+}
 }
 
-.overfix{
-    overflow:auto;
-}
