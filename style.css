@@ -186,7 +186,7 @@ input:focus{
    .navAll{
            display: block; 
             width:100%;
-           font-size:1.3rem;
+           font-size:1.2rem;
         }
     .pic1 img{
     width:100%;
@@ -212,7 +212,7 @@ input:focus{
     }
     .textcontent{
         text-align:center;
-        font-size:1.5rem;
+        font-size:1.4rem;
     }
     .textcontent2{
         display:inline-block;
